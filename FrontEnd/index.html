@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function redirect() {
+  var selectList = document.getElementById("mySelect");
+  var selectedOption = selectList.options[selectList.selectedIndex].value; 
+  var email = document.getElementById("email").value;
+  var password = document.getElementById("password").value;
+  
+  if (selectedOption === "customer") {
+    if ((email === "dhruv@gmail.com"||email==="priyal@gmail.com") && password === "123") {
+      window.location.href = "The great Indian kitchen/menu.html";
+    } else {
+      alert("Incorrect credentials for customer.");
+    }
+  } else if (selectedOption === "manager") {
+    if ((email === "vansh@gmail.com"||email==="krishna@gmail.com") && password === "123") {
+      window.location.href = "https://reservation1210.000webhostapp.com/manager.php";
+    } else {
+      alert("Incorrect credentials for manager.");
+    }
+  }
+}
+
+  </script>
+  <title>Login Page</title>
+  <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Rokkitt);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700,400);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+
+* { margin: 0; padding: 0; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+h1 { font-family: 'Rokkitt', serif; }
+
+body {
+  background-image: url('The great Indian kitchen/images/home-bg.jpg');
+  background-size: cover;
+  margin: 0 auto;
+  width: 66%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.container {
+  width: 66%;
+  min-width: 800px;
+  position: absolute;
+  top: 20%;
+}
+.span-6 {
+  //float: left;
+  width: 49%;
+  margin-right: 1%;
+}
+
+.login {
+  background-color: #444444;
+  text-align: center;
+  box-shadow: 0 0 20px #000;
+}
+.login h1 {
+  color: #A64141;
+  font-size: 36px;
+  padding: 30px;
+  background-color: #d25555;
+}
+.login-content, .message {
+  padding: 30px 30px 50px 30px;
+}
+.login-content a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ccc;
+}
+label {
+  display: block;
+  color: #f4f4f4;
+  font-size: 18px;
+  margin-bottom: 3px;
+  opacity: 0;
+
+  transition: all .3s ease-in-out;
+}
+input {
+  margin-bottom: 15px;
+  padding: 10px 5px;
+  width: 80%;
+  background-color: #ccc;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+input:focus {
+  background-color: #f4f4f4;
+  border: none;
+  outline: none;
+}
+
+button[type=button] {
+  color: #fff;
+  background-color: #d25555;
+  border: none;
+  font-family: 'Rokkitt', serif;
+  font-size: 24px;
+  margin-top: 25px;
+  width: 80%;
+
+  transition: all .5s ease;
+}
+input[type=submit]:hover {
+  background-color: #A64141;
+  cursor: pointer;
+  color: #f4f4f4;
+}
+
+select
+{
+  margin-bottom: 15px;
+  padding: 10px 5px;
+  width: 80%;
+  background-color: #ccc;
+  border: none;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+select:focus {
+  background-color: #f4f4f4;
+  border: none;
+  outline: none;
+}
+.message {
+
+}
+.message span {
+  display: block;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  bottom: 80px;
+  text-align: center;
+}
+.line {
+  display: inline-block;
+  padding: 2px;
+  background-color: #fff;
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  transform: rotate(-12deg);
+  width: 5px;
+}
+.first, .second, .third {
+  font-size:10em;
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  transform: rotate(-12deg);
+  letter-spacing: -4px;
+}
+.first {
+  font-family: 'Lobster', cursive;
+  -webkit-text-shadow: 3px 3px 0 #999;
+  -moz-text-shadow: 3px 3px 0 #999;
+  text-shadow: 3px 3px 0 #999;
+}
+.second {
+  font-size: 4em;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  border: 8px solid #fff;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  line-height: 75px;
+  margin: 0 auto;
+  font-family: 'Roboto Slab', serif;
+  position: relative;
+  left: 50px;
+}
+.second:before {
+  content: "";
+  display: block;
+  padding: 1px;
+  background-color: #fff;
+  width: 170px;
+  position: absolute;
+  top: 50%;
+  right: 110px;
+}
+.second:after {
+  content: "";
+  display: block;
+  padding: 1px;
+  background-color: #fff;
+  width: 170px;
+  position: absolute;
+  top: 50%;
+  left: 110px;
+}
+.third {
+  font-size: 8em;
+  font-family: 'Lobster', cursive;
+  -webkit-text-shadow: 3px 3px 0 #999;
+  -moz-text-shadow: 3px 3px 0 #999;
+  text-shadow: 3px 3px 0 #999;
+  line-height: 150px;
+}
+.show {
+  opacity: 1;
+}
+
+  </style>
+</head>
+<body>
+
+<center !important>
+
+<section class="container">
+  <div class="span-6">
+    <div class="login">
+      <h1>Login</h1>
+      <div class="login-content">
+        <label id="emailLabel">Login as</label>
+        <form>
+        <select id="mySelect">
+          <option>Login as</option>
+          <option value="customer">Customer</option>
+          <option>Owner</option>
+          <option value="manager">Manager</option>
+          <option>Waiter</option>
+          <option>Chef</option>
+          <option>Busboys</option>
+          <option>Other worker</option>
+        </select>
+        <label id="emailLabel">Please enter a valid email</label>
+        <input id="email" type="email" name="" placeholder="Email" required >
+        <label id="passwordLabel">Please enter your password</label>
+        <input type="password" id="password" placeholder="Password" / ><br>
+          <a href="#">Forgot Username </a>&#x2022<a href="#"> Forgot Password</a><br>
+          <button type="button" onclick="redirect()">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</section>
+</center>
+</body>
+</html>

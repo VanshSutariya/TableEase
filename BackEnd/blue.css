@@ -1,0 +1,482 @@
+
+    body {
+	margin:0;
+	padding:0;
+	font: bold 11px/1.5em Verdana;
+	/*background: #808080;*/
+	/*background: black; */
+	background: black;
+}
+	  /*- Menu Tabs Default--------------------------- */
+
+    #tabsdefault{
+      background: black, #efefef;
+      float:left;
+      width:100%;
+	  font-size:93%;
+      line-height:normal;
+      border-bottom:1px solid #666;}
+    #tabsdefault ul {
+	  margin:10;
+	  padding:10px 10px 0 50px;
+	  list-style:none;
+      }
+    #tabsdefault li {
+      display:inline;
+      margin:10;
+      padding:0;
+
+      }
+    #tabsdefault a {
+      float:left;
+      background:url("images/tableftF.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabsdefault a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightF.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsdefault a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsdefault a:hover span {
+      color:#FFF;
+      }
+    #tabsdefault a:hover {
+      background-position:0% -42px;
+      }
+    #tabsdefault a:hover span {
+      background-position:100% -42px;
+      }
+
+
+         #statuslegend{
+	    font: bold 11px/1.5em Verdana;
+      background:black, white;
+      float:left;
+      width:100%;
+	  font-size:93%;
+      line-height:normal;
+
+      border-bottom:1px solid #666;}
+    #statuslegend ul {
+	  margin:10;
+	  padding:50px 10px 0 50px;
+	  list-style:none;
+      }
+    #statuslegend li {
+      display:inline;
+      margin:10;
+      padding:0;
+
+      }
+    #statuslegend a {
+      float:left;
+      background:url("images/tableftF.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #statuslegend a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightF.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #statuslegend a span {float:none;}
+    /* End IE5-Mac hack */
+    #statuslegend a:hover span {
+      color:#FFF;
+      }
+    #statuslegend a:hover {
+      background-position:0% -42px;
+      }
+    #statuslegend a:hover span {
+      background-position:100% -42px;
+      }
+
+
+
+
+
+	#tabselected a {
+      float:left;
+      background:url("images/tableftJ.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      background-position:0% -42px;
+      }
+    #tabselected a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightF.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      color:black;
+      background-position:100% -42px;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabselected a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabselected a:hover span {
+      color:#FFF;
+      }
+    #tabselected a:hover {
+      background-position:0% -42px;
+      }
+    #tabselected a:hover span {
+      background-position:100% -42px;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #tabledefault{
+
+      float:left;
+      width:100%;
+	  font: bold 11px/1.5em Verdana;
+	  font-size:93%;
+      line-height:normal;
+
+      }
+
+    #tabledefault td{
+      font: Bold 11px/1.5em Verdana;
+	  }
+    #tabledefault ul {
+	  margin:10;
+	  padding:20px 100px 0px 50px;
+	  list-style:none;
+      }
+    #tabledefault li {
+      display:inline;
+      margin:10;
+      padding:0;
+      }
+    #tabledefault a {
+      float:left;
+      background:url("images/tableftF.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      border-bottom:1px solid #666;
+      }
+    #tabledefault a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightF.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabledefault a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabledefault a:hover span {
+      color:#FFF;
+      }
+    #tabledefault a:hover {
+      background-position:0% -42px;
+      }
+    #tabledefault a:hover span {
+      background-position:100% -42px;
+      }
+
+
+
+
+    #tableready td{
+	  color:black;
+	  }
+    #tableready a {
+      float:left;
+      background:url("images/tableftI.gif") no-repeat left top;
+      margin:0;
+      padding:0px 5px 0px 4px;
+      text-decoration:none;
+      border-bottom:none;
+      }
+    #tableready a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightC.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:black;
+      border-bottom:none;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tableready a span {float:none;}
+    /* End IE5-Mac hack */
+    #tableready a:hover span {
+      color:black;
+      }
+    #tableready a:hover {
+      background-position:0% -42px;
+      }
+    #tableready a:hover span {
+      background-position:100% -42px;
+      }
+
+
+
+
+
+
+    #tableoccupied td{
+	  color:black;
+	  }
+    #tableoccupied a {
+      float:left;
+      background:url("images/tableftE.gif") no-repeat left top;
+      margin:0;
+      padding:0 5px 0 4px;
+      text-decoration:none;
+      border-bottom:none;
+      }
+    #tableoccupied a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightD.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:black;
+      border-bottom:none;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tableoccupied a span {float:none;}
+    /* End IE5-Mac hack */
+    #tableoccupied a:hover span {
+      color:black;
+      }
+    #tableoccupied a:hover {
+      background-position:0% -42px;
+      }
+    #tableoccupied a:hover span {
+      background-position:100% -42px;
+      }
+
+
+
+
+
+
+
+    #tableassigned td{
+	  color:#FFF;
+	  }
+    #tableassigned a {
+      float:left;
+      background:url("images/tableftH.gif") no-repeat left top;
+      margin:0;
+      padding:0 5px 0 4px;
+      text-decoration:none;
+      border-bottom:none;
+      }
+    #tableassigned a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightI.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      border-bottom:none;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tableassigned a span {float:none;}
+    /* End IE5-Mac hack */
+    #tableassigned a:hover span {
+      color:#FFF;
+      }
+    #tableassigned a:hover {
+      background-position:0% -42px;
+      }
+    #tableassigned a:hover span {
+      background-position:100% -42px;
+      }
+
+
+
+
+
+
+    #tabledirty td{
+	  color:#FFF;
+	  }
+    #tabledirty a {
+      float:left;
+      background:url("images/tableftK.gif") no-repeat left top;
+      margin:0;
+      padding:0 5px 0 4px;
+      text-decoration:none;
+      border-bottom:none;
+      }
+    #tabledirty a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightH.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      border-bottom:none;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabledirty a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabledirty a:hover span {
+      color:#FFF;
+      }
+    #tabledirty a:hover {
+      background-position:0% -42px;
+      }
+    #tabledirty a:hover span {
+      background-position:100% -42px;
+      }
+
+
+
+
+
+ #waiterinfodefault{
+
+      float:left;
+      width:100%;
+	  font: bold 11px/1.5em Verdana;
+	  font-size:93%;
+      line-height:normal;
+
+      }
+
+    #waiterinfodefault td{
+      font: Bold 11px/1.5em Verdana;
+	  }
+    #waiterinfodefault ul {
+	  margin:10;
+	  padding:0px 100px 0px 50px;
+	  list-style:none;
+      }
+    #waiterinfodefault li {
+      display:inline;
+      margin:10;
+      padding:0;
+      }
+    #waiterinfodefault a {
+      float:left;
+      background:url("images/tableftF.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      border-bottom:1px solid #666;
+      }
+    #waiterinfodefault a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightF.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #waiterinfodefault a span {float:none;}
+    /* End IE5-Mac hack */
+    #waiterinfodefault a:hover span {
+      color:#FFF;
+      }
+    #waiterinfodefault a:hover {
+      background-position:0% -42px;
+      }
+    #waiterinfodefault a:hover span {
+      background-position:100% -42px;
+      }
+
+
+
+
+
+
+	#waiterinfo td{
+	  color:black;
+	  }
+    #waiterinfo a {
+      float:left;
+      background:url("images/tableftG.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      border-bottom:none;
+      }
+    #waiterinfo a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightG.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:black;
+      border-bottom:none;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #waiterinfo a span {float:none;}
+    /* End IE5-Mac hack */
+    #waiterinfo a:hover span {
+      color:black;
+      }
+    #waiterinfo a:hover {
+      background-position:0% -42px;
+      }
+    #waiterinfo a:hover span {
+      background-position:100% -42px;
+      }
+
+
+
+
+#waiterinfoheader td{
+	  color:#FFF;
+	  }
+    #waiterinfoheader a {
+      float:left;
+      background:url("images/tableftH.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      border-bottom:none;
+      }
+    #waiterinfoheader a span {
+      float:left;
+      display:block;
+      background:url("images/tabrightH.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#FFF;
+      border-bottom:none;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #waiterinfoheader a span {float:none;}
+    /* End IE5-Mac hack */
+    #waiterinfoheader a:hover span {
+      color:#FFF;
+      }
+    #waiterinfoheader a:hover {
+      background-position:0% -42px;
+      }
+    #waiterinfoheader a:hover span {
+      background-position:100% -42px;
+      }
+

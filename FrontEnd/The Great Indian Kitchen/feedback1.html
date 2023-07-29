@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback</title>
+
+    <style type="text/css">
+
+        * {
+     box-sizing: border-box;
+}
+ body {
+     background-color: white;
+     color: #fff;
+}
+ section {
+     padding: 0 32px;
+}
+ .section-content {
+     width: 100%;
+     max-width: 980px;
+     margin: 0 auto;
+}
+ .title {
+     font-family: 'Work Sans', sans-serif;
+     color:#3D3C3A;
+     font-weight: 300;
+     font-size: 32px;
+     font-weight: 300;
+     letter-spacing: 0.25px;
+     margin-bottom: 12px;
+}
+ .copy, .copy-error {
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 300;
+     color: #3D3C3A;
+     font-size: 14px;
+     line-height: 19.6px;
+}
+ .copy-error {
+     color: #f1300e;
+}
+ form .form-error {
+     display: none;
+}
+ form.is-dirty .form-error.visible {
+     display: block;
+}
+ .form-info {
+     display: none;
+     padding: 12px;
+     margin-bottom: 12px;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 400;
+     color: #21b3e4;
+     border-radius: 2px;
+}
+ .form-info.visible {
+     display: block;
+}
+ .form-info-success {
+     background-color: #ffb400;
+     color: #fff;
+}
+ .form-info-error {
+     background-color: #f1300e;
+     color: #fff;
+}
+ .form-row {
+     margin-bottom: 16px;
+}
+ .form-label {
+     display: block;
+     margin-bottom: 4px;
+     font-size: 14px;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 500;
+     color: #444444;
+}
+ .form-input {
+     display: block;
+     width: 100%;
+     max-width: 480px;
+     padding: 0 12px;
+     background-color: #21b3e4;
+     border-width: 0px;
+     height: 36px;
+     border-radius: 2px;
+     outline: none;
+}
+ .form-textarea {
+     display: block;
+     resize: none;
+     width: 100%;
+     max-width: 480px;
+     height: 148px;
+     padding: 12px;
+     background-color: #21b3e4;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 20px;
+     color: #d25555;
+     border-width: 0px;
+     border-radius: 2px;
+     outline: none;
+}
+ .form-input-text {
+     background-color: #21b3e4;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 400;
+     font-size: 14px;
+     color: #d25555;
+}
+ .form-error {
+     margin-top: 4px;
+     text-align: right;
+}
+ .form-submit {
+     height: 36px;
+     padding: 0 24px;
+     background-color: #21b3e4;
+     font-family: 'Work Sans', sans-serif;
+     font-weight: 500;
+     font-size: 14px;
+     color: #d25555;
+     border-width: 0px;
+     border-radius: 18px;
+     outline: none;
+     text-transform: uppercase;
+}
+ .form-submit.disabled {
+     background-color: rgba(33, 179, 228, 0.2);
+     color: #171e26;
+}
+ .feedback {
+     padding: 32px 32px;
+}
+ label
+ {
+    text-align: center;
+ }
+
+    </style>
+</head>
+<body>
+
+<center>
+
+<section class="feedback">
+    <div class="section-content ">
+        <h1 class="title"><b>Feedback</b></h1>
+        <form id="form-feedback" class="" action="Thankyou.html">
+            <div class="form-info form-info-success">Form submitted successfully</div>
+            <div class="form-info form-info-error">Opps! Something has gone wrong, try again</div>
+            <div class="form-row">
+                <p class="copy">Drop your valuable feedback here...</p>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Name</Label>
+                <input id="test" class="form-input form-input-text" name="name" type="text" required>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Email</Label>
+                <input class="form-input form-input-text" name="email" type="email" required>
+            </div>
+            <div class="form-row">
+                <label class="form-label">Comment</label>
+                <textarea name="comment" class="form-textarea"></textarea>
+                <p id="comment-error" class="copy-error form-error">This is a required field</p>
+            </div>
+            <div class="form-row">
+                <input id="form-feedback-submit" class="form-submit disabled" type="submit" value="Send" />
+            </div>
+        </form>
+    </div>
+</section>
+</center>
+</body>
+</html>
